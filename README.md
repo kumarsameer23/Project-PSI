@@ -1,73 +1,157 @@
-AI-Powered Document & Multimedia Q&A Web App
-🔍 Overview
+🧠 AI-Powered Document & Multimedia Q&A Web Application
 
-This is a full-stack AI application that allows users to upload PDFs, audio, and video files, then interact with an AI chatbot to ask questions, get summaries, and jump to relevant timestamps in media.
+An intelligent full-stack system that allows users to upload PDFs, audio, and video files and interact with an AI chatbot to ask questions, generate summaries, and jump to relevant timestamps in multimedia content.
 
-Built as part of an SDE-1 Programming Assignment.
+Built as part of an SDE-1 Programming Assignment to demonstrate real-world AI integration, backend engineering, frontend development, testing, and DevOps practices.
 
-🚀 Features
+🎥 Demo Video
 
-📄 Upload PDF documents
+👉 Watch the full project walkthrough:
+https://drive.google.com/file/d/1Kmk8Y0XPj1_At3i4kUgsmCo8iL8PPuPn/view?usp=sharing
 
-🎵 Upload audio files
+The demo covers:
 
-🎥 Upload video files
+Running the app using Docker
 
-🤖 AI chatbot answers questions from uploaded content
+Uploading video/audio/PDF files
 
-📝 AI-generated summaries
+AI-based question answering
 
-⏱ Timestamp extraction for media
+Timestamp extraction and media playback
 
-▶ Play media from relevant timestamp
+AI-generated summaries
 
-🔐 JWT Authentication
+Backend test coverage (99%)
 
-🧠 Semantic search using FAISS vector database
+GitHub Actions CI/CD pipeline
+
+🚀 Key Features
+📂 File Support
+
+Upload PDF documents
+
+Upload audio files
+
+Upload video files
+
+🤖 AI Capabilities
+
+Contextual chatbot Q&A based on uploaded content
+
+Semantic search using vector embeddings (FAISS)
+
+Automatic transcription of audio/video using Whisper
+
+AI-generated summaries
+
+⏱ Smart Media Navigation
+
+Extracts timestamps related to AI answers
+
+One-click playback from relevant moment in audio/video
+
+🔐 Authentication
+
+Secure JWT-based login system
+
+🧪 Quality & Reliability
+
+99% backend test coverage
+
+Unit tests for routes, services, and AI logic
+
+🐳 DevOps & Deployment
+
+Fully Dockerized backend and database
+
+Multi-container setup using Docker Compose
+
+CI/CD pipeline using GitHub Actions
 
 🏗 Tech Stack
-
 Backend
 
-FastAPI
+FastAPI – Web framework
 
-MongoDB
+MongoDB – Data storage
 
-FAISS (Vector Search)
+Whisper – Speech-to-text transcription
 
-Whisper (Speech-to-Text)
+FAISS – Vector similarity search
 
-JWT Authentication
+JWT – Authentication
 
-PyTest (99% test coverage)
+PyTest – Automated testing
 
 Frontend
 
-React.js
+React.js – User interface
 
-Axios API integration
+Axios – API communication
 
 Infrastructure
 
-Docker & Docker Compose
+Docker & Docker Compose – Containerization
 
-GitHub Actions CI/CD
+GitHub Actions – CI/CD automation
 
-🐳 Run with Docker
+🐳 Run the Project with Docker
+1️⃣ Clone the Repository
+git clone https://github.com/kumarsameer23/Project-PSI.git
+cd Project-PSI
+
+2️⃣ Start All Services
 docker compose up --build
 
+3️⃣ Access the App
 
-Frontend → http://localhost:3000
+Frontend:
+👉 http://localhost:3000
 
-Backend API Docs → http://localhost:8000/docs
+Backend API Docs (Swagger):
+👉 http://localhost:8000/docs
 
-🧪 Run Tests
+🧪 Run Backend Tests
 cd backend
 pytest --cov=app --cov-report=term
 
 
-Coverage: 99%
+Test Coverage: 99%
 
-🔄 CI/CD
+🔄 CI/CD Pipeline
 
-GitHub Actions automatically runs backend tests on every push.
+This project uses GitHub Actions to automatically:
+
+Install dependencies
+
+Run backend tests
+
+Check test coverage
+
+Every push to the repository triggers the CI workflow.
+
+📁 Project Structure
+backend/        → FastAPI app, AI services, tests
+frontend/       → React user interface
+docker-compose.yml
+
+🎯 Learning Highlights
+
+This project demonstrates:
+
+Real-world integration of AI + backend systems
+
+Handling multimedia processing pipelines
+
+Implementing semantic search with embeddings
+
+Writing high-coverage automated tests
+
+Building a production-style Docker setup
+
+Setting up CI/CD pipelines
+
+👤 Author
+
+Sameer Kumar
+SDE-1 Assignment Submission
