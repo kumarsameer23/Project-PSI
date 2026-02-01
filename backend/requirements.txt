@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-jose
+pymongo
+python-multipart
+requests
+sentence-transformers
+faiss-cpu
+openai-whisper
+pydantic
+python-dotenv
+pytest
+pytest-cov
+PyMuPDF
